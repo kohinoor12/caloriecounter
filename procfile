@@ -1,1 +1,1 @@
-web: gunicorn caloriecounter.wsgi
+web: gunicorn caloriecounter.wsgi --log-file
